@@ -1,4 +1,4 @@
-@import url(/css/font-vazirbold.css);
+@import url(../css/font-vazirbold.css);
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 }
 body{
     max-width: 1420px;
-    background-color: #1e1212;
+    background-color: #130d0d;
 }
 ul{
     list-style-type: none;
