@@ -1,0 +1,170 @@
+@import url(/css/font-vazirbold.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: vazirbold;
+}
+body{
+    max-width: 1420px;
+    background-color: #1e1212;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 100px;
+}
+.top-header{
+    background-color: rgb(1, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-header,.left-header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ul.menu{
+    display: flex;
+    gap: 30px;
+}
+ul.menu li a{
+    transition: all 0.3s ease-in;
+    font-size: 22px;
+    color: white;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+ul.menu li a:hover{
+    color: rgb(225, 232, 14);
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}.pp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 25px;
+}
+.p{
+    color:#fdc13b;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.h1{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.button1{
+    background: #17924e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    font-family: inherit;
+    width: 300px;
+    height: 90px;
+    border-radius: 10px;
+}
+.boxx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 25px;
+    gap: 50px;
+}
+.q1{
+    color: #c7f10c;
+    padding-right: 25px;
+    margin-right: 25px;
+}
+.q2{
+    color: #c40c0c;
+    padding-right: 25px;
+    margin-right: 25px;
+}
+.button2{
+    box-shadow: #c7f10c;
+}
+.but{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #6b76a2;
+    
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    width: 25%;
+    height: 45vh;
+    background-color: #bca1a1;
+    color: rgba(54, 6, 91, 0.979);
+    /* background-image: url(../img&file/undraw_decorate_christmas_tree_rmj0.svg);
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+.animation{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    height: 40vh;
+    background-color:var(--bgc);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    font-size:var(--font-size)
+}
+
+.address{
+    color: #f9f9f9;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 50px;
+    
+}
+   
+.map-logo{
+    align-items:center;
+    justify-content:space-between;
+    border-radius: 10px;
+}
+:root{
+    --bgc:rgb(86, 154, 91);
+    --font-size:25px;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(189, 17, 17);
+}
+
